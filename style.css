@@ -1,0 +1,175 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap'); */
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background:#355169;
+}
+
+.container{
+    padding-top: 4px;
+    box-sizing: inherit;
+    position:relative;
+
+}
+
+.coral{
+    width:100%;
+    height:auto;
+    background-size: cover;
+    background: no-repeat;
+}
+
+
+.header{
+    width:100% ;
+    height:100px;
+    background-size: cover;
+    z-index: 99;
+}
+.header .navbar{
+    padding:2px;
+    position:fixed;
+    top:0px;
+    transition:0.5s;
+    z-index: 10;
+}
+
+.navbar .logo{
+    font-size: 40px;
+    margin-right:40px ;
+    text-align: center;
+    justify-content: center;
+}
+
+.navbar ul li{
+    text-decoration: none;
+    display:inline-block;
+    padding:4px 4px;
+    color: white;
+    font-size: 14px;
+
+}
+
+
+.navbar ul li:hover{
+    color: yellow;
+}
+
+.welcome{
+    padding:40px;
+    font-style: italic;
+    background: white;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 4px;
+}
+
+
+.club{
+    display:flex;
+    position: relative;
+    justify-content: center;
+    padding-top:10px ;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.card{
+    text-decoration: none;
+    align-items: center;
+    border:none;
+}
+
+.welcome .row{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.project{
+    margin-top: -4px;
+    font-style: italic;
+    background: white;
+    margin-bottom: 4px;
+}
+
+.project h1{
+    text-align: center;
+    margin-bottom: 2rem;
+
+}
+.project .row{
+    display: inline-block;
+    padding: -10px;
+}
+
+.price{
+    background-color: white;
+    margin-top: -4px;
+    padding-top: 40px;
+    text-align: center;
+    justify-content: center;
+}
+
+.price h1{
+text-align: center;
+margin-bottom: 3rem;
+margin-top: 40px;
+font-weight: bold;
+}
+
+.price  p{
+    color:#c2baba ;
+}
+
+
+.price .cover {
+    display: inline-flex;
+    padding:10px;
+    align-items: center;
+    justify-content: center;
+
+}
+.price .row{
+    margin-left: 4px;
+}
+
+.vl {
+    border-left: 4px solid #cac6c6;
+    border-radius: 4px;
+    height: 30vh;
+  }
+
+.card-title {
+    text-align: center;
+    color:#c2baba ;
+}
+
+
+
+.card-text{
+    text-align: center;
+}
+span{
+    color: black;
+}
+
+.video{
+    background-color:#61497b ;
+    justify-content: center;
+    position:relative;
+}
+
+.video h1{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 4px;
+}
+
+
+.video .play{
+    display: inline;
+    justify-content: center;
+
+}
