@@ -173,3 +173,48 @@ span{
     justify-content: center;
 
 }
+
+.team{
+    background: white;
+    justify-content: center;
+    text-align: center;
+}
+.team h1{
+    padding: 1.3rem;
+}
+.card-textt{
+    color: #c2baba;
+}
+
+.member{
+text-align: center;
+justify-content: center;
+display: inline-flex;
+padding: 1.3rem;
+
+}
+
+.second{
+    text-align: center;
+justify-content: center;
+display: inline-flex;
+padding: 1.3rem;
+}
+
+.life{
+    padding-top: 1.3rem;
+    justify-content: center;
+    text-align: center;
+    background: #efefee;
+    padding-bottom: 2rem;
+}
+
+.life .holder{
+    text-align: center;
+justify-content: center;
+display: inline-flex;
+padding: 1.3rem;
+}
+.life h1{
+    margin-bottom: 2rem;
+}
