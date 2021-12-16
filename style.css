@@ -309,6 +309,7 @@ padding: 1.3rem;
 
  .footer .row{
      margin-top: -5px;
+     padding-top: 5rem;
      z-index: 1000000;
  }
 
